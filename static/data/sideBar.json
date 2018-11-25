@@ -1,0 +1,82 @@
+[
+	{
+        "icon": "el-icon-menu",
+        "index": "/page/table",
+        "title": "停车场列表显示",
+        "children": [
+        	{
+                "index": "/page/table/ele",
+                "title": "附近范围内的停车场"
+            },
+            {
+                "index": "/page/table/elTable",
+                "title": "附近范围内的停车场"
+            },
+            {
+            	"index": "/page/table/dataSource",
+            	"title": "附近范围内的停车场"
+            }
+        ]
+    },
+    {
+        "icon": "el-icon-star-on",
+        "index": "/page/chart",
+        "title": "定位",
+        "children": [
+            {
+                "index": "/page/chart/sChart",
+                "title": "开始定位"
+            }
+        ]
+    },
+
+
+    {
+    	"icon": "el-icon-view",
+        "index": "/page/panel",
+        "title": "导航",
+        "children": [
+            {
+                "index": "/page/panel/collapse",
+                "title": "路线选择"
+            },{
+                "index": "/page/panel/card",
+                "title": "小卡片"
+            }
+        ]
+    },
+    {
+        "icon": "el-icon-upload",
+        "index": "/page/upload",
+        "title": "搜索",
+        "children": [
+           {
+                "index": "/page/upload/baseUpload",
+                "title": "停车场"
+            },
+            {
+                "index": "/page/upload/clipUpload",
+                "title": "地点"
+            }
+        ]
+    },
+
+    
+    {
+        "icon": "el-icon-more",
+        "index": "/page/else",
+        "title": "更多",
+        "children": [
+            {
+                "index": "/page/else/drag",
+                "title": "拖拽组件"
+            }, {
+                "index": "/page/else/tree",
+                "title": "树形组件"
+            },{
+            	"index": "/page/else/carousel",
+                "title": "走马灯效果展示"
+            }
+        ]
+    }
+]
